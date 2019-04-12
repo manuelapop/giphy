@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.changeReq {
+  padding: 10px 0px 0px 10px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.homeLayout {
+  padding: 40px 0px 0px 10px;
+}
+
+.label {
+  display: inline;
+  padding: 0.2em 0.6em 0.3em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25em;
+}
+
+@media screen and (min-width: 64em) {
+  .tracks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .track:nth-child(5n) {
+    margin-right: 0;
+  }
+}
+
+.track {
+  float: left;
+  width: 150px;
+  margin-right: 15px;
+}
+.track img {
+  width: 100%;
+}
+.track p {
+  width: 150px;
+  margin-top: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 14px;
+  text-overflow: ellipsis;
+}
+.track a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.loader {
+  clear: both;
+}
+
+.scroller {
+  height: 700px;
+  overflow: auto;
+}
